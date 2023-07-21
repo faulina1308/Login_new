@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HotelActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageviewHotel"
+            android:background="#999">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$74"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textSize="13dp"
+                android:textColor="#fff">
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The beach is but a short walk away"
+                android:textSize="24sp"
+                android:gravity="center"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Di ujung semesta, di bawah perbentangan langit yang membentang luas, terdapat sebuah tempat yang disebut  yang menjulang megah di tengah-tengah keindahan alam yang memikat hati. Letaknya yang strategis membuatnya menjadi pusat perhatian para pelancong dari berbagai penjuru dunia, yang datang dengan kerinduan untuk menyelami pesona dan keajaiban alam yang dihadirkannya.
+
+Begitu kamu melangkah ke dalam hotel tersebut, seluruh indera seolah-olah dibelai oleh aroma harum bunga-bunga yang menghias taman indah di sekelilingnya. Bunyi riang dari air mancur yang bergerak lembut memperkuat kesan damai dan menyambut para tamu yang datang dengan tangan terbuka.
+
+Pemandangan dari lobi hotel sungguh menakjubkan, sejajar dengan karya seni alam yang tak tertandingi. Jendela-jendela kaca besar memamerkan panorama menggoda dari pegunungan yang gagah, dengan puncaknya yang menjulang tinggi menyentuh langit. Di kejauhan, danau berkilauan seperti permata biru yang bersinar di bawah sinar matahari yang hangat. Hutan lebat dan pohon-pohon raksasa terhampar begitu luas, menciptakan pemandangan hijau yang menyejukkan mata dan jiwa.
+
+Taman tropis di sekeliling hotel menghadirkan kehidupan liar yang tak terduga. Burung-burung bernyanyi riang dengan suara khasnya, menari-nari di angkasa seperti serangkaian cat warna-warni. Kupu-kupu lepas landas, menghiasi udara dengan sayap-sayap berwarna cerah yang begitu elok. Bunga-bunga beraneka warna terhampar rapi di setiap sudut taman, mencuri perhatian dengan kecantikannya yang menawan.
+
+Ketika matahari berangsur-angsur meredup, hotel tersebut tampak begitu anggun dengan cahaya gemerlap yang menyala di sepanjang lorong dan terasnya. Lampu-lampu kecil menyinari jalanan, menciptakan atmosfer romantis yang mengajak setiap tamu untuk merenung dan merayakan keindahan malam. Ketika malam telah benar-benar menyapa, langit terbuka dan berlimpah bintang, menyambutnya dengan tarian cahaya yang menakjubkan, menciptakan panggung indah yang memberikan nuansa keajaiban dan keabadian.
+
+Ruangan-ruangan hotel dirancang dengan teliti, setiap detailnya mencerminkan kehangatan dan kemewahan. Perabotan elegan dan fasilitas modern terpilih dengan baik untuk memastikan kenyamanan maksimal bagi para tamu yang menginap. Para penjaga dengan senyum ramah siap membantu setiap kebutuhan, memberikan keramahtamahan yang hangat dan menyenangkan bagi para pengunjung yang berada jauh dari kampung halaman.
+
+Tidak hanya dalam keindahan alamnya, hotel ini juga menyuguhkan beragam atraksi dan kegiatan yang menarik. Para tamu dapat menjelajahi keajaiban alam sekitarnya melalui berbagai aktivitas petualangan, seperti hiking di pegunungan, menyusuri hutan, atau menikmati pemandangan menakjubkan dari balon udara. Jika ada yang menginginkan ketenangan, mereka dapat merendam diri dalam spa mewah yang menawarkan pijatan dan perawatan tradisional untuk menyegarkan tubuh dan pikiran.
+
+Dalam perjalanannya, hotel ini bukan sekadar tempat beristirahat, tetapi juga merupakan jalinan kenangan dan impian. Suasana romantis dan keindahan alamnya menyatukan hati-hati yang mencari inspirasi dan ketenangan, mengisi jiwa-jiwa dengan energi positif dan cinta untuk kehidupan.
+
+Sebagai permata berharga di antara keajaiban alam, hotel ini menjadi simbol ketenangan, kecantikan, dan keramahan. Ia adalah jembatan yang menghubungkan manusia dengan keindahan alam semesta, mengajak setiap tamu untuk menghargai kehidupan dan keindahan yang tak ternilai dari dunia yang begitu luas ini."></TextView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:textColor="#ffffff"
+        android:text="Book Now!!!"></Button>
+
+</LinearLayout>

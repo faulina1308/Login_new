@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_a"
+    tools:context=".MenuActivity">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1">
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@android:color/transparent"
+            android:drawableRight="@drawable/img_dollar_128"
+            android:textColor="#fff"
+            android:text="Forex"
+            android:id="@+id/tampilForexButton">
+        </Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_columnWeight="1"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/student"
+            android:id="@+id/tampilMahasiswaButton"
+            android:text="Master Mahasiswa"></Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_columnWeight="1"
+            android:textColor="#fff"
+            android:drawableRight="@drawable/img_weather_lightning_128"
+            android:id="@+id/tampilCuacaButton"
+            android:text="Cuaca"></Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_columnWeight="1"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/hotell"
+            android:id="@+id/tampilHotel"
+            android:text="Hotel"></Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_columnWeight="1"
+            android:textColor="#fff"
+            android:drawableRight="@drawable/implic"
+            android:id="@+id/tampilIntent"
+            android:text="Implicit Intent"></Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_columnWeight="1"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/baseline_tab_24"
+            android:id="@+id/tampilTabLayout"
+            android:text="Tab Layout"></Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_columnWeight="1"
+            android:textColor="#fff"
+            android:drawableRight="@drawable/webview"
+            android:id="@+id/tampilWebViewLanjutan"
+            android:text="Web View Lanjutan"></Button>
+
+
+
+    </GridLayout>
+</ScrollView>
